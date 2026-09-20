@@ -13,7 +13,7 @@ const Single = () => {
     <div>
       <h2>{item.title}</h2>
       <p>{item.description}</p>
-
+     <p>Owner: {item.username}</p>
       {item.media_type.startsWith('image') ? (
         <img src={item.filename} alt={item.title} />
       ) : (
