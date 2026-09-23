@@ -1,3 +1,5 @@
+import Logout from './views/Logout';
+import Login from './views/Login';
 import {BrowserRouter, Routes, Route} from 'react-router';
 import Layout from './components/Layout';
 import Home from './views/Home';
@@ -9,6 +11,8 @@ const App = () => {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
+        <Route path="/logout" element={<Logout />} />
+        <Route path="/login" element={<Login />} />
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="/profile" element={<Profile />} />
