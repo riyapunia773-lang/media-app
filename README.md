@@ -17,3 +17,4 @@ If you are developing a production application, we recommend using TypeScript wi
 ## Deployed application
 
 Open [the deployed application](https://users.metropolia.fi/~riyap/upload/) to view it in the browser.
+Open [the deployed application](https://users.metropolia.fi/~riyap/tailwind/) to view it in the browser.
